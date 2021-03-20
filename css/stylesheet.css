@@ -1,0 +1,40 @@
+html * {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#main {
+    background-color: rgb(182, 202, 194);
+}
+
+h1 {
+    font-size: 32px;
+    text-shadow: 2px 2px rgb(167, 166, 166);
+}
+
+.img-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.img-background {
+    width: max-content;
+    height: max-content;
+    border: 5px solid burlywood;
+    background-color: sienna;
+}
+
+#image1, #image2 {
+    width: 10vw;
+    height: auto;
+}
+
+#img-caption {
+    font-family: monospace;
+}
+
+#tribute-info {
+    background-color: rgb(175, 157, 135);
+    width: 60vw;
+}
